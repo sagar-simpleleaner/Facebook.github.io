@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #f0f2f5;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 10px;
+    height: 50px;
+}
+.logo{
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.nav{
+    margin-left: 50px;
+}
+.logo1{
+    margin: 10px;
+    height: 40px;
+    margin-right: 70px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.logo1:hover{
+    background-color: rgb(212, 216, 216);
+    border-radius: 10px;
+
+}
+.search{
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px black solid;
+    background: #f0f2f5;
+    width: 250px;
+}
+.pro{
+    gap: 20px;
+}
+.logo2{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    padding-right: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.logo2:hover{
+    background-color: rgb(212, 216, 216);
+    padding-right: -20px;
+    border-radius: 10px;
+}
+.logouta{
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.logout{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.logout:hover{
+    background-color: transparent;
+    color: black;
+    box-shadow: 2px 2px 2px black;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.about{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.one{
+    margin-top: 10px;
+    margin-right: 1100px;
+    height: 45px;
+}
+.one:hover{
+    background-color: rgb(153, 143, 143);
+    color: white;
+    border-radius: 10px;
+    height: 45px;
+    cursor: pointer;
+}
+.userimg{
+    height: 40px;
+    width: 40px;
+}
+.user{
+    margin-top: -30px;
+    margin-left: 45px;
+}
+.stories{
+    float: right;
+    margin-top: -590px;
+    margin-right: 350px;
+    display: flex;
+    gap: 5px;
+}
+.story{
+    border: 1px solid black;
+    height: 250px;
+    width: 150px;
+    border-radius: 20px;
+    background-image: url("story.png");
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.story1{
+    border: 1px solid black;
+    height: 250px;
+    width: 150px;
+    border-radius: 20px;
+    background-image: url("story1.png");
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.story2{
+    border: 1px solid black;
+    height: 250px;
+    width: 150px;
+    border-radius: 20px;
+    background-image: url("story2.png");
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.story3{
+    border: 1px solid black;
+    height: 250px;
+    width: 150px;
+    border-radius: 20px;
+    background-image: url("story3.png");
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.storyview{
+    margin-top: -100px;
+    margin-right: 100px;
+}
+.storyimg{
+    margin-top: 200px;
+    margin-left: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+.Storypara{
+    margin-left: 55px;
+    margin-top: -30px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+.whatis{
+    float: right;
+    margin-top: -300px;
+    margin-right: 450px;
+}
+.mind{
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+}
+.mindimg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.mindinput{
+    height: 25px;
+    width: 200px;
+    border: none;
+    background-color: rgba(161, 153, 153, 0.564);
+    border-radius: 10px;
+}
+.livefile{
+    margin-left: 10px;
+}
+.post{
+    border-radius: 20px;
+    height: 640px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: -120px;
+    background-color: white;
+}
+.postimg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.postpara{
+    margin-left: 55px;
+    margin-top: -30px;
+    color: rgb(3, 3, 3);
+    font-weight: 200;
+}
+.posttime{
+    margin-left: 60px;
+    font-size: 10px;
+    margin-top: -3px;
+}
+.postabout{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.postupload{
+    margin-top: 10px;
+    width: 480px;
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.postliked{
+    margin-left: 10px;
+}
+.Contacts{
+    /* border: 1px solid black; */
+    /* height: 1000px; */
+    width: 320px;
+    float: right;
+    margin-top: -2530px;
+    margin-right: 10px;
+}
+.Birthdays{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 80px;
+    margin-right: 10px;
+}
+.Birthdays:hover{
+    background-color: rgb(123, 123, 123);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.Birthday{
+    margin-left: 10px;
+
+}
+.giftimg{
+    height: 40px;
+    margin-top: 10px;
+}
+.giftpara{
+    margin-left: 50px;
+    margin-top: -40px;
+}
+.Contact{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.con{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.con:hover{
+    border-radius: 10px;
+    background-color: rgb(123, 123, 123);
+    color: white;
+    cursor: pointer;
+}
+.conimg{
+    height: 30px;
+}
+.conpara{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+hr{
+    margin: 10px;
+}
+.group{
+    margin-left: 20px;
+}

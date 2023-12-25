@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    .flex{
+    display: flex;
+    align-items: center;
+}
+.container{
+    padding: 0 15px;
+    min-height: 100vh;
+    justify-content: center;
+    background: #f0f2f5;
+}
+.facebook-page{
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
+.facebook-page .text{
+    margin-bottom: 90px;
+}
+.facebook-page h1{
+    color: #1877f2;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.facebook-page p{
+    font-size: 1.75rem;
+    white-space: nowrap;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 3px 3px rgb(94, 12, 216);
+}
+form input{
+    height: 45px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px ;
+    font-size: 1rem;
+    padding: 0 14px;
+}
+form input:focus{
+    outline: none;
+    border-color: #1877f2;
+
+}
+::placeholder{
+    color: #777;
+    font-size: 1rem;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    width: 100px;
+}
+.link .login{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #073164;
+    text-align: center;
+    padding: 1px ;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+.link .login:hover {
+    background: #05b94a;
+}
+form a{
+    text-decoration: none;
+
+}
+.link .forgot{
+    color: #1877f2;
+    font-size: 0.9rem;
+}
+.link .forgot:hover{
+    text-decoration: underline;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.log{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 255, 0);
+    height: 30px;
+    border-radius: 6px;
+    transition: 2s ease;
+    border: none;
+    width: 80px;
+    margin-left: 150px;
+}
+.log:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.button{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button a {
+    padding: 15px;
+    background: #42b72a;
+    color: #fff;
+    border-radius: 6px;
+    transition: 2s ease;
+    text-align: right;
+}
+.button a:hover{
+    background-color: blue;
+}
+.facebook-page .text{
+    margin-bottom: 30px;
+}
+form{
+    padding: 15px;
+    box-shadow: 2px 2px 2px black ;
+    border-radius: 20px;
+}
+form h2{
+    color: #1877f2;
+    text-align: center;
+    padding: 15px;
+}
